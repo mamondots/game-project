@@ -1,0 +1,40 @@
+.text-title{
+    font-family: 'Oxanium', sans-serif;
+}
+.menu-link ul li a{
+    position: relative;
+    z-index:999;
+    transition:0.5s;
+}
+.menu-link ul li a:hover{
+    color:#E4A101; 
+}
+.menu-link ul li a::before{
+    position: absolute;
+    content:"";
+    width:40px;
+    height:2px;
+    left:10px;
+    bottom:0px;
+    background-color:#E4A101;
+    transform:rotate(120deg);
+    transition:0.5s;
+    opacity:0;
+    visibility:hidden;
+    
+}
+.menu-link ul li a:hover::before{
+    bottom:10px;
+    opacity:1;
+    visibility:visible;
+}
+.cart-box{
+    opacity:1;
+    transition:0.5s;
+    transform:translateY(12vh);
+}
+.cart-box:hover .drop-cart{
+    opacity:1;
+    transform:translateY(-12vh);
+    
+}

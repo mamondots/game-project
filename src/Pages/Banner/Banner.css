@@ -1,0 +1,73 @@
+.bg-banner{
+    background-image:url("../../assets/image/bgslide-1.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.secand-banner{
+    background-image:url("../../assets/image/bgslide-2.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.secand-banner::before{
+    
+}
+.bg-banner::before{
+    position: absolute;
+    content:"";
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    background-color:#1c14215d;
+}
+
+.banner-btn{
+    position: relative;
+}
+.banner-btn::before{
+    position: absolute;
+    content:"";
+    right:0px;
+    top:0;
+    height:100%;
+    width:12px;
+    background-color:#E4A101;
+    transform:translateX(20px);
+    transition:0.5s;
+}
+.banner-btn:hover::before{
+    transform:translateX(0px);
+}
+
+.arrow{
+    font-size:30px;
+    padding:8px 8px;
+    background-color:#fff;
+    position: absolute;
+    display:flex;
+    bottom:8vh;
+    right:18vh;
+    z-index:2;
+    transition:0.5s;
+    cursor: pointer;
+    opacity:0;
+    transform:0.5s;
+    transform:translateY(20px);
+}
+.banner{
+    transform:0.5s;
+}
+.banner:hover .arrow{
+    opacity:1;
+    transform:translateY(0px);
+}
+.arrow:hover{
+    background-color:#E4A101;
+    color:#fff;
+}
+.arrow-prev{
+    right:60px;
+}
+

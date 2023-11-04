@@ -1,0 +1,18 @@
+.white-space{
+    position: absolute;
+    width:80vh;
+    height:50vh;
+    background-color:#fff;
+    transform:rotate(315deg);
+    overflow: hidden;
+    top:-38vh
+}
+.white-space2{
+    position: absolute;
+    width:80vh;
+    height:50vh;
+    background-color:#fff;
+    transform:rotate(-315deg);
+    overflow: hidden;
+    bottom:-48vh;
+}

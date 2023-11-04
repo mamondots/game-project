@@ -1,0 +1,29 @@
+.box-rounded{
+    position: absolute;
+    top:-35px;
+}
+.place::placeholder{
+    color:#E4A101;
+}
+.footer-head{
+    position: relative;
+}
+.footer-head::before{
+    position: absolute;
+    content:"";
+    width:20%;
+    height:2px;
+    left:0;
+    bottom:-6px;
+    background-color:#E4A101 ;
+}
+.footer-part ul li{
+    position: relative;
+    transition:0.5s;
+    transform:translateX(0px);
+    cursor: pointer;
+}
+.footer-part ul li:hover{
+    transform:translateX(12px);
+    color: #E4A101;
+}

@@ -1,0 +1,40 @@
+ [
+      {
+        "title": "Women Block T-Shirt",
+        "price": 24.99,
+        "name": "T-SHIRT",
+        "image_url": "https://i.ibb.co/Y3HW9WR/s-product-img01.jpg"
+      },
+      {
+        "title": "Gears 5 Xbox Controller",
+        "price": 39.99,
+        "name": "X-BOX",
+        "image_url": "https://i.ibb.co/sm2HRBB/s-product-img02.jpg"
+      },
+      {
+        "title": "GeForce RTX 2070",
+        "price": 14.95,
+        "name": "GRAPHICS",
+        "image_url": "https://i.ibb.co/x8xMN5R/s-product-img03.jpg"
+      },
+      {
+        "title": "Virtual Reality Smiled",
+        "price": 49.99,
+        "name": "VR-BOX",
+        "image_url": "https://i.ibb.co/jHWPhxK/s-product-img04.jpg"
+      },
+      {
+        "title": "Gaming Bag",
+        "price": 9.99,
+        "name": "VR-BAG",
+        "image_url": "https://i.ibb.co/C93yF1p/shop-item08.jpg"
+      },
+      {
+        "title": "Gaming PC",
+        "price": 29.99,
+        "name": "BR-PC",
+        "image_url": "https://i.ibb.co/5cgBL4d/shop-item10.jpg"
+      }
+    ]
+ 
+  

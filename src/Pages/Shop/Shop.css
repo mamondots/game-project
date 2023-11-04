@@ -1,0 +1,6 @@
+.product-name{
+    position: absolute;
+    left:50%;
+    bottom:-35px;
+    transform:translate(-50%,-50%);
+}
